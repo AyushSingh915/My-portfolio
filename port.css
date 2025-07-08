@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color:pink;
+    color:black;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url("backgrounf.jpg");
+    background-size:cover;
+    text-decoration-color: antiquewhite;
+  }
+  
+  .tagline {
+    font-style: normal;
+    font-size: larger;
+    text-decoration-line: underline;
+  }
+  
+  section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .profile-img {
+    width: 300px;
+    border-radius: 50%;
+    margin: 30px 0;
+  }
+ul li {
+  background: #eee;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+ul li:hover {
+  transform: scale(1.03);
+}
+
+ul li:hover::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: 2px solid #00f7ff;
+  border-radius: 3px;
+  box-shadow: 0 0 8px #00f7ff;
+  pointer-events: none;
+}
+  
+
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+  }
+  #html {
+    
+     background-image: url("html.jpg");
+    background-size: cover;
+  }
+  #html:hover {
+    background-image: none;
+   
+
+  }
+  #css{
+   
+    background-image: url("css.webp");
+    background-size: cover;
+  }
+  #css:hover{
+  background-image: none;
+    
+  }
+  #tail{
+    background-image: url("tail.avif");
+    background-size: cover;
+
+  }
+  #tail:hover{
+    background-image: none;
+  }
+  #Java{
+    background-image: url("java.webp");
+    background-size: cover;
+    
+  }
+  #Java:hover{
+    background-image: none;
+   
+  }
+  #boot{
+    background-image: url("boot.avif");
+    background-size: cover;
+  }
+  #boot:hover{
+    background-image: none;
+  
+  }
+  #Git{
+    background-image: url("guit.avif");
+    background-size: cover;
+  }
+  #Git:hover{
+    background-image: none;
+  }
+  
